@@ -59,16 +59,6 @@ const MainNav = styled.nav`
   .current {
     color: #2748d6;
   }
-
-  button {
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #2748d6;
-    padding: 0.7rem 0.9rem;
-    font-family: inherit;
-    cursor: pointer;
-  }
 `
 
 
