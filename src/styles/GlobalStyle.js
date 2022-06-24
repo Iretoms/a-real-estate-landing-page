@@ -29,6 +29,10 @@ button {
     cursor: pointer;
   }
 
+  section {
+    width: 100vw;
+  }
+
 `
 
 

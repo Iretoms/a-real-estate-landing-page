@@ -3,6 +3,7 @@ import GlobalStyle from './styles/GlobalStyle';
 import {Routes, Route, useLocation} from 'react-router-dom'
 import Header from './components/Header';
 import Description from './components/sections/Description';
+import Search from './components/sections/Search';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyle/>
       <Header/>
       <Description/>
+      <Search/>
     </>
   );
 }

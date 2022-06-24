@@ -4,7 +4,7 @@ import HeroImage from '../../images/Hero-image.03914c98eda5b94687e4.png';
 
 const Description = () => {
     return (
-        <FirstSection>
+        <section>
             <DescriptionSection>
                 <article>
                     <h1>
@@ -17,7 +17,7 @@ const Description = () => {
                         stronger communities.
                     </p>
                     <button>
-                        learn more
+                        Learn more
                     </button>
 
                 </article>
@@ -26,13 +26,10 @@ const Description = () => {
                     <div className='blue-circle'></div>
                 </DesImgCon>
             </DescriptionSection>
-        </FirstSection>
+        </section>
     );
 };
 
-const FirstSection = styled.section`
-   width: 100vw;
-`
 const DescriptionSection = styled.div`
    width: 85%;
    margin: 0 auto;
@@ -67,7 +64,7 @@ const DesImgCon = styled.article`
     position: absolute;
     bottom: 0.5rem;
     left: 0.9rem;
-    box-shadow: 15px 15px 15px 25px  rgba(0,0,0,0.1);
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1);
    }
 `
 
