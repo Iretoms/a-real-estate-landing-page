@@ -42,7 +42,7 @@ const DescriptionSection = styled.div`
    }
    p {
     font-size: 1.1rem;
-    margin: 1rem 0 1.8rem;
+    margin: 1rem 0 2.5rem;
    }
 `
 
