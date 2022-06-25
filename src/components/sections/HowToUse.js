@@ -50,7 +50,7 @@ const HowToUse = () => {
 const HowToUseSection = styled.div`
    width: 85%;
    margin: 0 auto;
-   padding: 7rem 0;
+   padding: 8.5rem 0;
    .use-heading {
     font-size: 2rem;
     text-align: center;

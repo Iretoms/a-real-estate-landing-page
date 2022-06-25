@@ -33,7 +33,7 @@ const Description = () => {
 const DescriptionSection = styled.div`
    width: 85%;
    margin: 0 auto;
-   padding: 5rem 0;
+   padding: 5rem 0 6rem;
    display: flex;
    justify-content: space-between;
    h1 {
