@@ -37,7 +37,7 @@ const DescriptionSection = styled.div`
    display: flex;
    justify-content: space-between;
    h1 {
-    color: #2748d6;
+    color: #192684;
     font-size: 3rem;
    }
    p {

@@ -51,7 +51,7 @@ const ChooseUsSec = styled.div`
   justify-content: space-between;
    h1 {
     font-size: 2rem;
-    color:#2748d6;
+    color:#192684;
     margin-bottom: 1.5rem;
    }
    p {

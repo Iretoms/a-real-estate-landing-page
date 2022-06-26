@@ -55,7 +55,7 @@ const Div = styled.div`
     align-items: flex-end;
     h4 {
         margin-right: 0.3rem;
-        color: #2748d6;
+        color: #192684;
         font-size: 0.9rem;
     }
   }

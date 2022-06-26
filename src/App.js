@@ -6,6 +6,7 @@ import Description from './components/sections/Description';
 import Search from './components/sections/Search';
 import HowToUse from './components/sections/HowToUse';
 import ChooseUs from './components/sections/ChooseUs';
+import Featured from './components/sections/Featured';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <Description/>
       <Search/>
       <HowToUse/>
-      <ChooseUs/>
+      <ChooseUs/> 
+      <Featured/>
     </>
   );
 }

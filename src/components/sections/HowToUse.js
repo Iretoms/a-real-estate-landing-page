@@ -54,7 +54,7 @@ const HowToUseSection = styled.div`
    .use-heading {
     font-size: 2rem;
     text-align: center;
-    color:#2748d6;
+    color:#192684;
     margin-bottom: 0.5rem;
    }
    .use-para {
