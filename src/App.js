@@ -7,6 +7,7 @@ import Search from './components/sections/Search';
 import HowToUse from './components/sections/HowToUse';
 import ChooseUs from './components/sections/ChooseUs';
 import Featured from './components/sections/Featured';
+import Testimonial from './components/sections/Testimonial';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <HowToUse/>
       <ChooseUs/> 
       <Featured/>
+      <Testimonial/>
     </>
   );
 }

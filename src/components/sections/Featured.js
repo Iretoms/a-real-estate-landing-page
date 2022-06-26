@@ -89,6 +89,7 @@ const Property = styled.div`
  display: flex;
  justify-content: space-between;
  article {
+    box-shadow: rgba(0, 0, 0, 0.05) 24px 24px 48px 0px;
     padding: 1rem 1rem 2rem 2rem;
     background-color: #fff;
     border-top-right-radius: 50px;

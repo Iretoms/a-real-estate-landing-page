@@ -75,6 +75,7 @@ const UseArticle = styled.article`
    height: 30rem;
    padding-top: 5rem;
    background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.05) 24px 24px 48px 0px;
    img {
     margin-bottom: 1.5rem;
    }
