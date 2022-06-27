@@ -8,6 +8,7 @@ import HowToUse from './components/sections/HowToUse';
 import ChooseUs from './components/sections/ChooseUs';
 import Featured from './components/sections/Featured';
 import Testimonial from './components/sections/Testimonial';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <ChooseUs/> 
       <Featured/>
       <Testimonial/>
+      <Footer/>
     </>
   );
 }
