@@ -1,16 +1,54 @@
-import React from 'react';
+import React, {useRef} from 'react';
+import gsap from 'gsap';
+import { useIntersection } from 'react-use';
 import styled from 'styled-components';
 import location from '../../images/location.png'
 import smartHouse from '../../images/Smart-house.60a02eb41b60bde5949b.png'
 import secure from '../../images/Secure.cf988d3b61a4f398306a.png'
 
 const HowToUse = () => {
+    const howToUseRef = useRef(null)
+
+    const intersection = useIntersection(howToUseRef, {
+        root:null,
+        rootMargin:"10px",
+        threshold: 0.2
+    })
+
+    const fadeIn =(element) =>{
+        gsap.to(element,{
+            duration:1,
+            opacity:1,
+            y:-60,
+            ease:'power4.out',
+            stagger: {
+                amount: .3
+            }
+        })
+    }
+        
+    
+
+    const fadeOut = (element) =>{
+        gsap.to(element,{
+            duration:1,
+            opacity:0,
+            y:-20,
+            ease:'power4.out'
+        })
+    }
+
+
+    intersection && intersection.intersectionRatio < 0.2 ?
+    fadeOut(".fade-in")
+    : fadeIn(".fade-in")
+
     return (
-        <section>
-            <HowToUseSection>
-                <h1 className='use-heading'>How it works.</h1>
-                <p className='use-para'>This is how our products works</p>
-                <div>
+        <section >
+            <HowToUseSection ref={howToUseRef}>
+                <h1 className='use-heading fade-in'>How it works.</h1>
+                <p className='use-para fade-in'>This is how our products works</p>
+                <div className='fade-in'>
                     <UseArticle>
                         <img src={location} alt='location' className='location'/>
                         <h3>Find Home</h3>

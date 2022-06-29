@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import HeroImage from '../../images/Hero-image.03914c98eda5b94687e4.png';
 
 const Description = () => {
+    
     return (
         <section>
             <DescriptionSection>
@@ -19,7 +20,6 @@ const Description = () => {
                     <button>
                         Learn more
                     </button>
-
                 </article>
                 <DesImgCon>
                     <img src={HeroImage} alt='hero'/>
